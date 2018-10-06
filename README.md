@@ -1,8 +1,8 @@
-#Data Masking
+**Data Masking**
 
 Tip: If it doesn’t work, make sure you are at the right level of a nested JSON payload.
 
-Option A:
+**Option A:**
 curl -i https://api.enterprise.apigee.com/v1/o/myORG/maskconfigs -u user@example.com:$PASSWORD
 
 curl -i -H "Content-type:text/xml" -X POST -d '<MaskDataConfiguration>
@@ -17,7 +17,7 @@ curl -i -H "Content-type:text/xml" -X POST -d '<MaskDataConfiguration>
 This URL may also work if you only want to apply it to a specific API.
 https://api.enterprise.apigee.com/v1/organizations/myOrg/apis/{api_name}/maskconfigs
 
-Option B:
+**Option B:**
 
 Use this Javascript in the Target Response to obscure sensitive data from being returned. The downside of this option is someone may be able to see the data in the trace before the javascript is executed.
 

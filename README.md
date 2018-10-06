@@ -37,7 +37,7 @@ The javascript example would result in something like this where a credit card n
         "splitTenderId": "1874265",
         "splitShipment": "01/02",
         "creditCard": {
-            "number": "****",
+            "number": "********",
             "cardholderName": "John Smith",
             "alias": "1111",
             "type": "American Express",
@@ -45,7 +45,7 @@ The javascript example would result in something like this where a credit card n
                 "month": "09",
                 "year": "20"
             },
-            "securityCode": "****",
+            "securityCode": "********",
             "sequenceNumber": "01",
             "token": {
                 "tokenId": "292bb6b886fc4446894f878b7e32bd5e",
